@@ -38,6 +38,20 @@ Add the following dependency and repository to your Maven project:
 </dependency>
 ````
 
+**Plugin.yml example:**
+
+Remember that the runnables API is actually a plugin so you need to add it as a dependency in your plugin.yml!
+
+
+```yml
+name: ExamplePlugin
+version: '1.0'
+main: com.hihelloy.examplePlugin.ExamplePlugin
+api-version: '1.20'
+authors: [ Hihelloy ]
+depend: [Runnables]
+````
+
 ---
 
 ## Supported Platforms
