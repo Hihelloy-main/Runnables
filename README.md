@@ -4,7 +4,7 @@
 [![GitHub release](https://img.shields.io/github/v/release/Hihelloy-main/Runnables)](https://github.com/Hihelloy-main/Runnables/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-**Runnables** is a lightweight Paper/Folia-compatible API that provides a drop-in replacement for `BukkitRunnable` with full support for:
+**Runnables** is a lightweight Paper/Folia-compatible plugin API that provides a drop-in replacement for `BukkitRunnable` with full support for:
 
 - Folia async, region, and entity scheduling
 - Paper synchronous and asynchronous tasks
