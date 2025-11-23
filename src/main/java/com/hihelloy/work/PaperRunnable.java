@@ -91,14 +91,10 @@ public abstract class PaperRunnable implements Runnable {
 
 
     public static boolean isFolia() {
-        return classExists("io.papermc.paper.threadedregions.RegionizedServer");
-    }
-
-    private static boolean classExists(String name) {
         try {
-            Class.forName(name);
+            Class.forName("io.papermc.paper.threadedregions.RegionizedServer");
             return true;
-        } catch (Throwable ignored) {
+        } catch (ClassNotFoundException e) {
             return false;
         }
     }
