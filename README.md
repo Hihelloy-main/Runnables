@@ -21,10 +21,10 @@ Add the following dependency and repository to your Maven project:
 
 **Repository:**
 ```xml
-      <repository>
-          <id>jitpack.io</id>
-          <url>https://jitpack.io</url>
-      </repository>
+<repository>
+ <id>jitpack.io</id>
+ <url>https://jitpack.io</url>
+</repository>
 ````
 
 **Dependency:**
