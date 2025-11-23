@@ -2,7 +2,7 @@
 # Runnables
 
 [![GitHub release](https://img.shields.io/github/v/release/Hihelloy-main/Runnables)](https://github.com/Hihelloy-main/Runnables/releases)
-[![License](https://img.shields.io/github/license/Hihelloy-main/Runnables)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 **Runnables** is a lightweight Paper/Folia-compatible API that provides a drop-in replacement for `BukkitRunnable` with full support for:
 
