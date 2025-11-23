@@ -19,13 +19,15 @@ This API allows you to write scheduled tasks in a **BukkitRunnable-style API** w
 
 Add the following dependency and repository to your Maven project:
 
-
+**Repository:**
 ```xml
       <repository>
           <id>jitpack.io</id>
           <url>https://jitpack.io</url>
       </repository>
 ````
+
+**Dependency:**
 
 ```xml
 <dependency>
