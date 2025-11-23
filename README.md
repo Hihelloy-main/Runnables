@@ -237,6 +237,7 @@ MIT License © Hihelloy
   * `getFoliaTaskId()`
   * `isRunning()`
   * `isFolia()`
+  * `isCancelled()`
 
 ```
 ```
