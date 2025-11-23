@@ -56,7 +56,7 @@ public abstract class PaperRunnable implements Runnable {
     }
 
 
-    public void cancelTask(int taskId) {
+    public static void cancelTask(int taskId) {
         if (taskId <= 0) return;
 
         ScheduledTask f = foliaTasks.remove(taskId);
