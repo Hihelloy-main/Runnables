@@ -6,9 +6,11 @@ public class Runnables extends JavaPlugin {
     public static RunnableLike runnable;
     public static PaperRunnable paperRunnable;
     public static int taskid;
+    public static Runnables plugin;
 
     @Override
     public void onEnable() {
+        plugin = this;
         /*
             paperRunnable = new PaperRunnable() {
                 @Override
