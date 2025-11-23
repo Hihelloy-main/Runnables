@@ -1,0 +1,8 @@
+name: Runnables
+main: com.hihelloy.work.Runnables
+version: ${project.version}
+authors: ['Hihelloy']
+folia-supported: true
+api-version: '1.20'
+load: POSTWORLD
+description: "Plugin for PaperRunnable"
