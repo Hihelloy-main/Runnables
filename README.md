@@ -184,7 +184,7 @@ public class ExamplePlugin extends JavaPlugin {
 
 ## License
 
-MIT License © Hihelloy-main
+MIT License © Hihelloy
 
 ---
 
