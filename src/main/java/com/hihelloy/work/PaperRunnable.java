@@ -11,6 +11,8 @@ import org.bukkit.entity.Entity;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.scheduler.BukkitRunnable;
 import org.bukkit.scheduler.BukkitScheduler;
+import org.bukkit.scheduler.BukkitTask;
+
 import java.util.Map;
 import java.util.Objects;
 import java.util.concurrent.ConcurrentHashMap;
@@ -40,6 +42,20 @@ public abstract class PaperRunnable implements Runnable {
             return foliaTaskId;
         } else {
             return bukkitTaskId;
+        }
+    }
+
+    public boolean isCancelled() {
+        if (isFolia()) {
+            return task.isCancelled();
+        } else {
+            BukkitTask bukkitTask = Bukkit.getScheduler().getPendingTasks()
+                    .stream()
+                    .filter(t -> t.getTaskId() == bukkitTaskId)
+                    .findFirst()
+                    .orElse(null);
+
+            return bukkitTask == null || bukkitTask.isCancelled();
         }
     }
 
